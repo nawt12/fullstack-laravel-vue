@@ -42,7 +42,7 @@ export default {
                 desc: desc
             });
         }, 
-        swr(desc='Somethingn went wrong! Please try again.', title="Oops") {
+        swr(desc='Something went wrong! Please try again.', title="Oops") {
             this.$Notice.error({
                 title: title,
                 desc: desc
